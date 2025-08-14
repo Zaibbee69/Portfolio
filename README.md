@@ -1,4 +1,4 @@
 # Portfolio
 My Portfolio Website 
 
-Daisy UI, Tailwind, Vite, chillax, Adobe Themes
+Daisy UI, Tailwind, Vite, chillax, Adobe , google fonts, hagrid, sarvatrik

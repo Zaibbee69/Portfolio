@@ -56,9 +56,31 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Sarvatrik';
+  src: url('./assets/fonts/fonnts.com-Sarvatrik_Latin_VF_Thin.otf'),
+}
+
+@font-face {
+  font-family: 'Hagrid';
+  src: url('./assets/fonts/Hagrid-Regular-trial.ttf'),
+}
+
 .font-chillax 
 {
   font-family: 'Chillax', sans-serif;
+}
+
+
+.font-sarvatrik 
+{
+  font-family: 'Sarvatrik', sans-serif;
+}
+
+
+.font-hagrid 
+{
+  font-family: 'Hagrid', sans-serif;
 }
 
 .font-merriweather 
@@ -79,4 +101,26 @@
 .font-inter
 {
   font-family: "Inter", sans-serif;
+}
+
+.font-raleway
+{
+  font-family: "Raleway", sans-serif;
+}
+
+.brush-underline {
+  position: relative; /* Essential for positioning the pseudo-element */
+  display: inline-block; /* Ensures the underline only spans the text */
+}
+
+.brush-underline::after {
+  content: ''; /* Required for pseudo-elements */
+  position: absolute;
+  bottom: 0; /* Position at the bottom of the text */
+  left: 0;
+  width: 100%; /* Spans the width of the text */
+  height: 3px; /* Adjust for desired thickness */
+  background-color: #8b4513; /* Example brush color */
+  /* Add more styling for a brush effect, e.g., border-radius, box-shadow */
+  border-radius: 100%; /* Example for a slightly rounded brush stroke */
 }
